@@ -6,8 +6,6 @@ RUN pip install flask
 RUN pip install matplotlib
 RUN pip install pandas
 RUN pip install seaborn
-RUN pip install joblib
-RUN pip install imblearn
 
 COPY . /app
 WORKDIR /app
